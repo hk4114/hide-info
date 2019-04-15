@@ -1,0 +1,23 @@
+{
+  "name": "hide-info",
+  "version": "0.0.2",
+  "description": "this package will hide some infomation what is sensitive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hk4114/hide-info.git"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "huakang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hk4114/hide-info/issues"
+  },
+  "homepage": "https://github.com/hk4114/hide-info#readme"
+}
