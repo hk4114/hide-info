@@ -1,6 +1,6 @@
 {
   "name": "hide-info",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "this package will hide some infomation what is sensitive",
   "main": "index.js",
   "scripts": {

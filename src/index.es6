@@ -1,4 +1,4 @@
-module.exports = (param,left=0,right=0)=>{
+const HideInfo = (param,left=0,right=0) => {
     const len = param.length
     const r = new RegExp("^(.{"+left+"})(?:\\d+)(.{"+right+"})$","gim");
     let c = "";
@@ -6,4 +6,5 @@ module.exports = (param,left=0,right=0)=>{
       c+="*"
     }
     return param.replace(r, "$1"+c+"$2");
-}
+  };
+  export default HideInfo;
